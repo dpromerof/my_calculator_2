@@ -10,6 +10,10 @@
         var num = document.getElementById("n1");
         num.value = Math.pow(num.value, 3);
       }
+      function cuartaPotencia() {
+        var num = document.getElementById("n1");
+        num.value = Math.pow(num.value, 4);
+      }
       function sine() {
         var num = document.getElementById("n1");
         num.value = Math.sin(num.value);
@@ -22,6 +26,9 @@
     <input type="text" id="n1">
     <p>
       <button onclick="cube()"> X^3 </button>
+    </p>
+    <p>
+      <button onclick="cuartaPotencia()"> X^4 </button>
     </p>
     <p>
       <button onclick="sine()"> sin(x) </button>
