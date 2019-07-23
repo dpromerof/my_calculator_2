@@ -10,6 +10,10 @@
         var num = document.getElementById("n1");
         num.value = Math.pow(num.value, 3);
       }
+      function powerOf2() {
+        var num = document.getElementById('n1');
+        num.value = Math.pow(num.value, 2);
+      }
       function cuartaPotencia() {
         var num = document.getElementById("n1");
         num.value = Math.pow(num.value, 4);
@@ -25,10 +29,13 @@
     Number:
     <input type="text" id="n1">
     <p>
-      <button onclick="cube()"> X^3 </button>
+      <button onclick="powerOf2()"> X^2 </button>
     </p>
     <p>
       <button onclick="cuartaPotencia()"> X^4 </button>
+    </p>
+    <p>
+      <button onclick="cube()"> X^3 </button>
     </p>
     <p>
       <button onclick="sine()"> sin(x) </button>
