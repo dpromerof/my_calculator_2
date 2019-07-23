@@ -14,6 +14,10 @@
         var num = document.getElementById('n1');
         num.value = Math.pow(num.value, 2);
       }
+      function reciprocal() {
+        var num = document.getElementById('n1');
+        num.value = 1/num.value;
+      }
       function cuartaPotencia() {
         var num = document.getElementById("n1");
         num.value = Math.pow(num.value, 4);
@@ -39,6 +43,9 @@
     </p>
     <p>
       <button onclick="sine()"> sin(x) </button>
+    </p>
+    <p>
+      <button onclick="reciprocal()"> 1/X </button>
     </p>
   </body>
 </html>
